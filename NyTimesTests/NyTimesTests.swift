@@ -5,32 +5,39 @@
 //  Created by Avinash on 15/01/24.
 //
 
+import Foundation
 import XCTest
 @testable import NyTimes
 
 final class NyTimesTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func test_NewsApiResource_With_ValidRequest_Returns_Response() {
+        //ARRANGE
+        let expectation = self.expectation(description: "ValidRequest_Returns_NewsResponse")
+        
+        let handler = NewsData()
+        handler.fetchNewsData { (result) in
+            XCTAssertNotNil(result)
+            let _ = result.map { value in
+                XCTAssertEqual(100000009260817, value.results.first?.id ?? 0)
+                expectation.fulfill()
+            }
         }
+        waitForExpectations(timeout: 20, handler: nil)
     }
-
+    
+    func test_NewsApiResource_With_ValidRequest_Returns_NotEqualResponse(){
+        // ARRANGE
+        let expectation = self.expectation(description: "ValidRequest_Returns_NotEqualResponse")
+        
+        let handler = NewsData()
+        
+        handler.fetchNewsData { (result) in
+            XCTAssertNotNil(result)
+            let _ = result.map { value in
+                XCTAssertNotEqual(2323, value.results.first?.id ?? 0)
+                expectation.fulfill()
+            }
+        }
+        waitForExpectations(timeout: 20, handler: nil)
+    }
 }

@@ -1,0 +1,11 @@
+//
+//  Staging.xcconfig
+//  NyTimes
+//
+//  Created by Avinash on 15/01/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+Root_URL = api.nytimes.com
