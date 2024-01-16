@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct NewsScreen: View {
+    @StateObject var newsListViewModel = NewsListViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(newsListViewModel.news.first?.uri ?? "")
     }
 }
 

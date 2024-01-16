@@ -31,6 +31,7 @@
 		E171FFF32B55872600A84A9E /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171FFF22B55872600A84A9E /* NewsModel.swift */; };
 		E171FFF52B558D6000A84A9E /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171FFF42B558D6000A84A9E /* NewsData.swift */; };
 		E171FFF72B558DB700A84A9E /* NewsDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171FFF62B558DB700A84A9E /* NewsDataProtocol.swift */; };
+		E1E20B9B2B57063F000CC4C0 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E20B9A2B57063F000CC4C0 /* NewsListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		E171FFF22B55872600A84A9E /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		E171FFF42B558D6000A84A9E /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
 		E171FFF62B558DB700A84A9E /* NewsDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDataProtocol.swift; sourceTree = "<group>"; };
+		E1E20B9A2B57063F000CC4C0 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 		E171FFC92B5563E800A84A9E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E1E20B9A2B57063F000CC4C0 /* NewsListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -415,6 +418,7 @@
 				E171FFF12B55865300A84A9E /* News+Stub.swift in Sources */,
 				E171FFD92B55655F00A84A9E /* ImageLoader.swift in Sources */,
 				E171FFF52B558D6000A84A9E /* NewsData.swift in Sources */,
+				E1E20B9B2B57063F000CC4C0 /* NewsListViewModel.swift in Sources */,
 				E171FFEB2B5584CD00A84A9E /* NewsScreen.swift in Sources */,
 				E171FFF72B558DB700A84A9E /* NewsDataProtocol.swift in Sources */,
 				E171FFE12B5565C000A84A9E /* APIConstants.swift in Sources */,
