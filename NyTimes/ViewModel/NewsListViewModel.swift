@@ -10,6 +10,7 @@ import Foundation
 class NewsListViewModel: ObservableObject {
     @Published var news: [News] = [News]()
     @Published var state: FetchState = .good
+    @Published var isLoading = false
     
     let service: NewsDataProtocol
     
@@ -28,6 +29,7 @@ class NewsListViewModel: ObservableObject {
         }
         
         state = .isLoading
+        isLoading = true
         
         service.fetchNewsData { [weak self] result in
             DispatchQueue.main.async {
@@ -36,8 +38,10 @@ class NewsListViewModel: ObservableObject {
                     self?.news = results.results
                     if results.results.count == 0 {
                         self?.state = .noResults
+                        self?.isLoading = false
                     } else {
                         self?.state = .good
+                        self?.isLoading = false
                     }
                     
                     print("fetched News \(results.results.count)")
@@ -45,6 +49,7 @@ class NewsListViewModel: ObservableObject {
                 case .failure(let error):
                     print("error loading movies: \(error)")
                     self?.state = .error(error.localizedDescription)
+                    self?.isLoading = false
                 }
             }
         }

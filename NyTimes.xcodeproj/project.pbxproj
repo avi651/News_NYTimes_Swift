@@ -31,6 +31,22 @@
 		E171FFF32B55872600A84A9E /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171FFF22B55872600A84A9E /* NewsModel.swift */; };
 		E171FFF52B558D6000A84A9E /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171FFF42B558D6000A84A9E /* NewsData.swift */; };
 		E171FFF72B558DB700A84A9E /* NewsDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E171FFF62B558DB700A84A9E /* NewsDataProtocol.swift */; };
+		E18DEC432B599EEB00FE972D /* NewsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18DEC422B599EEB00FE972D /* NewsTableView.swift */; };
+		E18DEC452B59A12A00FE972D /* NewsTableViewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18DEC442B59A12A00FE972D /* NewsTableViewCard.swift */; };
+		E18DEC532B59A6CE00FE972D /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E18DEC472B59A6CC00FE972D /* Roboto-BlackItalic.ttf */; };
+		E18DEC542B59A6CE00FE972D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E18DEC482B59A6CD00FE972D /* Roboto-Bold.ttf */; };
+		E18DEC552B59A6CE00FE972D /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E18DEC492B59A6CD00FE972D /* Roboto-Black.ttf */; };
+		E18DEC562B59A6CE00FE972D /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E18DEC4A2B59A6CD00FE972D /* Roboto-Medium.ttf */; };
+		E18DEC572B59A6CE00FE972D /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E18DEC4B2B59A6CD00FE972D /* Roboto-Italic.ttf */; };
+		E18DEC582B59A6CE00FE972D /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E18DEC4C2B59A6CD00FE972D /* Roboto-MediumItalic.ttf */; };
+		E18DEC592B59A6CE00FE972D /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E18DEC4D2B59A6CD00FE972D /* Roboto-ThinItalic.ttf */; };
+		E18DEC5A2B59A6CE00FE972D /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E18DEC4E2B59A6CD00FE972D /* Roboto-BoldItalic.ttf */; };
+		E18DEC5B2B59A6CE00FE972D /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E18DEC4F2B59A6CD00FE972D /* Roboto-Thin.ttf */; };
+		E18DEC5C2B59A6CE00FE972D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E18DEC502B59A6CD00FE972D /* Roboto-Regular.ttf */; };
+		E18DEC5D2B59A6CE00FE972D /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E18DEC512B59A6CE00FE972D /* Roboto-LightItalic.ttf */; };
+		E18DEC5E2B59A6CE00FE972D /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E18DEC522B59A6CE00FE972D /* Roboto-Light.ttf */; };
+		E18DEC622B59AC6200FE972D /* RedactedShimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18DEC602B59AC6200FE972D /* RedactedShimmer.swift */; };
+		E18DEC632B59AC6200FE972D /* Shimmering.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18DEC612B59AC6200FE972D /* Shimmering.swift */; };
 		E1E20B9B2B57063F000CC4C0 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E20B9A2B57063F000CC4C0 /* NewsListViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +95,23 @@
 		E171FFF22B55872600A84A9E /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		E171FFF42B558D6000A84A9E /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
 		E171FFF62B558DB700A84A9E /* NewsDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDataProtocol.swift; sourceTree = "<group>"; };
+		E18DEC422B599EEB00FE972D /* NewsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableView.swift; sourceTree = "<group>"; };
+		E18DEC442B59A12A00FE972D /* NewsTableViewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCard.swift; sourceTree = "<group>"; };
+		E18DEC472B59A6CC00FE972D /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E18DEC482B59A6CD00FE972D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		E18DEC492B59A6CD00FE972D /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		E18DEC4A2B59A6CD00FE972D /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		E18DEC4B2B59A6CD00FE972D /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		E18DEC4C2B59A6CD00FE972D /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E18DEC4D2B59A6CD00FE972D /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E18DEC4E2B59A6CD00FE972D /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E18DEC4F2B59A6CD00FE972D /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		E18DEC502B59A6CD00FE972D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		E18DEC512B59A6CE00FE972D /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		E18DEC522B59A6CE00FE972D /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		E18DEC5F2B59A6FF00FE972D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E18DEC602B59AC6200FE972D /* RedactedShimmer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedactedShimmer.swift; sourceTree = "<group>"; };
+		E18DEC612B59AC6200FE972D /* Shimmering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shimmering.swift; sourceTree = "<group>"; };
 		E1E20B9A2B57063F000CC4C0 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +163,7 @@
 		E171FF9B2B55638800A84A9E /* NyTimes */ = {
 			isa = PBXGroup;
 			children = (
+				E18DEC5F2B59A6FF00FE972D /* Info.plist */,
 				E171FF9C2B55638800A84A9E /* NyTimesApp.swift */,
 				E171FFCF2B55643F00A84A9E /* Envoirement */,
 				E171FFC62B5563B200A84A9E /* Protocols */,
@@ -211,6 +245,7 @@
 		E171FFCA2B5563F000A84A9E /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				E18DEC412B599ED400FE972D /* Components */,
 				E171FFE92B5584A900A84A9E /* NewsScreen */,
 				E171FFE82B55849900A84A9E /* NewsSearchScreen */,
 				E171FFE62B55848C00A84A9E /* MainScreen.swift */,
@@ -221,6 +256,9 @@
 		E171FFCB2B5563FF00A84A9E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E18DEC462B59A6BB00FE972D /* Fonts */,
+				E18DEC602B59AC6200FE972D /* RedactedShimmer.swift */,
+				E18DEC612B59AC6200FE972D /* Shimmering.swift */,
 				E171FFD62B55652700A84A9E /* Utils.swift */,
 				E171FFD82B55655F00A84A9E /* ImageLoader.swift */,
 				E171FFDA2B55658C00A84A9E /* LoadingViews.swift */,
@@ -275,6 +313,34 @@
 				E171FFEA2B5584CD00A84A9E /* NewsScreen.swift */,
 			);
 			path = NewsScreen;
+			sourceTree = "<group>";
+		};
+		E18DEC412B599ED400FE972D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E18DEC422B599EEB00FE972D /* NewsTableView.swift */,
+				E18DEC442B59A12A00FE972D /* NewsTableViewCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E18DEC462B59A6BB00FE972D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E18DEC492B59A6CD00FE972D /* Roboto-Black.ttf */,
+				E18DEC472B59A6CC00FE972D /* Roboto-BlackItalic.ttf */,
+				E18DEC482B59A6CD00FE972D /* Roboto-Bold.ttf */,
+				E18DEC4E2B59A6CD00FE972D /* Roboto-BoldItalic.ttf */,
+				E18DEC4B2B59A6CD00FE972D /* Roboto-Italic.ttf */,
+				E18DEC522B59A6CE00FE972D /* Roboto-Light.ttf */,
+				E18DEC512B59A6CE00FE972D /* Roboto-LightItalic.ttf */,
+				E18DEC4A2B59A6CD00FE972D /* Roboto-Medium.ttf */,
+				E18DEC4C2B59A6CD00FE972D /* Roboto-MediumItalic.ttf */,
+				E18DEC502B59A6CD00FE972D /* Roboto-Regular.ttf */,
+				E18DEC4F2B59A6CD00FE972D /* Roboto-Thin.ttf */,
+				E18DEC4D2B59A6CD00FE972D /* Roboto-ThinItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,12 +447,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18DEC562B59A6CE00FE972D /* Roboto-Medium.ttf in Resources */,
 				E171FFD32B55648000A84A9E /* Staging.xcconfig in Resources */,
+				E18DEC5C2B59A6CE00FE972D /* Roboto-Regular.ttf in Resources */,
 				E171FFD52B55648E00A84A9E /* Production.xcconfig in Resources */,
 				E171FFA42B55639000A84A9E /* Preview Assets.xcassets in Resources */,
+				E18DEC582B59A6CE00FE972D /* Roboto-MediumItalic.ttf in Resources */,
+				E18DEC532B59A6CE00FE972D /* Roboto-BlackItalic.ttf in Resources */,
 				E171FFEF2B55861E00A84A9E /* NewsData.json in Resources */,
+				E18DEC5E2B59A6CE00FE972D /* Roboto-Light.ttf in Resources */,
+				E18DEC552B59A6CE00FE972D /* Roboto-Black.ttf in Resources */,
+				E18DEC5B2B59A6CE00FE972D /* Roboto-Thin.ttf in Resources */,
 				E171FFA12B55639000A84A9E /* Assets.xcassets in Resources */,
+				E18DEC5D2B59A6CE00FE972D /* Roboto-LightItalic.ttf in Resources */,
+				E18DEC542B59A6CE00FE972D /* Roboto-Bold.ttf in Resources */,
+				E18DEC572B59A6CE00FE972D /* Roboto-Italic.ttf in Resources */,
 				E171FFD12B55647100A84A9E /* Dev.xcconfig in Resources */,
+				E18DEC5A2B59A6CE00FE972D /* Roboto-BoldItalic.ttf in Resources */,
+				E18DEC592B59A6CE00FE972D /* Roboto-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +495,7 @@
 				E171FFDF2B5565B200A84A9E /* FetchState.swift in Sources */,
 				E171FFF12B55865300A84A9E /* News+Stub.swift in Sources */,
 				E171FFD92B55655F00A84A9E /* ImageLoader.swift in Sources */,
+				E18DEC452B59A12A00FE972D /* NewsTableViewCard.swift in Sources */,
 				E171FFF52B558D6000A84A9E /* NewsData.swift in Sources */,
 				E1E20B9B2B57063F000CC4C0 /* NewsListViewModel.swift in Sources */,
 				E171FFEB2B5584CD00A84A9E /* NewsScreen.swift in Sources */,
@@ -424,8 +503,11 @@
 				E171FFE12B5565C000A84A9E /* APIConstants.swift in Sources */,
 				E171FFDB2B55658C00A84A9E /* LoadingViews.swift in Sources */,
 				E171FFF32B55872600A84A9E /* NewsModel.swift in Sources */,
+				E18DEC632B59AC6200FE972D /* Shimmering.swift in Sources */,
 				E171FFD72B55652700A84A9E /* Utils.swift in Sources */,
 				E171FFDD2B5565A500A84A9E /* APIError.swift in Sources */,
+				E18DEC432B599EEB00FE972D /* NewsTableView.swift in Sources */,
+				E18DEC622B59AC6200FE972D /* RedactedShimmer.swift in Sources */,
 				E171FFE32B5565CA00A84A9E /* URLServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,6 +674,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NyTimes/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NyTimes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -620,6 +703,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NyTimes/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NyTimes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -26,6 +26,7 @@ struct News: Codable, Identifiable {
     let nytdsection, adxKeywords: String
     let byline: String
     let etaID: Int
+    let title: String
 
     enum CodingKeys: String, CodingKey {
         case uri, url, id
@@ -35,5 +36,6 @@ struct News: Codable, Identifiable {
         case adxKeywords = "adx_keywords"
         case byline
         case etaID = "eta_id"
+        case title = "title"
     }
 }

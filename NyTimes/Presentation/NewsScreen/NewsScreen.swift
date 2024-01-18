@@ -10,9 +10,9 @@ import SwiftUI
 struct NewsScreen: View {
     @StateObject var newsListViewModel = NewsListViewModel()
     var body: some View {
-        Text(newsListViewModel.news.first?.uri ?? "")
+        NewsTableView(newsTitle: "Ny Times", newsData: newsListViewModel.news)
     }
-}
+} 
 
 #Preview {
     NewsScreen()
